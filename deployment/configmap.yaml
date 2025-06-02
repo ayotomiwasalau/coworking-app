@@ -4,6 +4,7 @@ metadata:
   name: postgres-configmap
 data:
   DB_NAME: "coworkingdb"
+  DB_HOST: "10.100.196.204"
   DB_USER: "tomuser"
   DB_PORT: "5432"
 ---
